@@ -1,2 +1,5 @@
 def uppercase(str_input):
-    return str_input.upper()
+    """
+    делает первые буквы заглавными
+    """
+    return ' '.join(word.capitalize() for word in s.split())
